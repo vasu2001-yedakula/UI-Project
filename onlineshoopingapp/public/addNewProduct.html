@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Add new product
+        </title>
+        <script src="javascripts/lib/jquery.js"></script>
+        <script src="javascripts/admin.js"></script>
+        <link rel="stylesheet" href="css/admin.css">
+    </head>
+    <body>
+        <div> <h3>Adding New Product Details</h3>
+        
+        </div>
+        <img src="" id="firstimg">
+        <ul class="adminBlock">
+            <li>
+                Product Name: <input type="text"class="proname" id="abc" name="pname">
+            </li>
+            <li >
+                &nbsp;&nbsp; Price: &nbsp;&nbsp;<input type="number" class="price" id="abc" name="actualPrice">
+            </li>
+            <li>
+                Discount Percent: <input type="number"id="abc" name="discountPercent">
+            </li>
+            <li>
+                &nbsp;&nbsp; Rating: <input type="number" id="abc"class="rating" name="rating">
+            </li>
+            <li>
+                <form method ="POST"  enctype="multipart/form-data">
+                    Image Url: <input type="file" id="imageUrl" value="AddImages" name="prodImage">
+                    <input type="button" value="Upload Image" class="btn1" onclick="uploadDetails()">
+                </form>
+            </li>
+            <li>
+                <h4> Product Description: </h4><textarea name="description" id="description" cols="30" rows="10"></textarea>
+            </li>
+            <li>
+                <input onclick="readProductData()" type="button"class="btn2" value="Add Product Details" class="btn btn-primary">
+            </li>
+        </ul>
+    </body>
+</html>

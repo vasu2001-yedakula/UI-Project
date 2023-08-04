@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="https://thumbs.dreamstime.com/z/concept-online-shopping-electronic-funds-flat-design-icons-web-mobile-41234347.jpg">
+        <title>Online Shopping Application</title>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="lib/bootstrap-icons/font/bootstrap-icons.css">
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="javascripts/lib/jquery.js"></script>
+       <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+       <script src="javascripts/lib/handlebar.js"></script>
+       <script src="javascripts/index.js"></script>
+       <script src="javascripts/loginHandling.js"></script>
+       <script src="javascripts/productDetailsPage.js"></script>
+       <script src="javascripts/openSearch.js"></script>
+       <script src="javascripts/singleProductLoadingPage.js"></script>
+       <link rel="stylesheet" href="css/Captcha.css">
+       <script src="javascripts/captcha.js"></script>
+       <link rel="stylesheet" href="./css/footer.css">
+       <script src="javascripts/userSignup.js"></script>
+    </head>
+    <body class="ontainer-fluid">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <div class="container-fluid">
+                   
+                    <button class="navbar-toggler" data-bs-target="#navItems" data-bs-toggle="collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <h2 class="navbar-brand"> <img src="https://www.logolynx.com/images/logolynx/2c/2cd2908f2731f8087e3958b8403bd6f5.png" width="60" height="34">OnlineShoping</h2>
+                    <div class="collapse navbar-collapse" id="navItems">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link btn btn-dark" href="home.html" target="frameBody"><i class="bi bi-house-fill"></i> Home</a></li>
+                            <li class="nav-item"><a class="nav-link btn btn-dark" href="buttons.html" target="frameBody">Electronic</a></li>
+                            <li class="nav-item"><a class="nav-link btn btn-dark" href="#">Footwear</a></li>
+                            <li class="nav-item"><a class="nav-link btn btn-dark" href="#">Dress</a></li>
+                            <li class="search-bar nav-item d-flex justify-content-between ms-4 me-4">
+                                <form class="input-group">
+                                    <input type="text" class="form-control" placeholder="search">
+                                    <button class="btn btn-warning"><span class="bi bi-search"></span></button>
+                                </form>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <button data-bs-toggle="dropdown" class="btn btn-dark dropdown-toggle">
+                                    <i class="bi bi-person"></i> SignIn
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item"><a href="#" class="dropdown-text SignInButton">LogIn</a></li>
+                                    <li class="dropdown-item"><a  href="#" class="dropdown-text SignInButton">Creat Account</a></li>
+                                    <li class="dropdown-divider"></li>
+                                    <li class="dropdown-item">
+                                        <i class="bi bi-question-circle"></i> Help
+                                    </li>
+                                </ul>
+                            </li>
+                                <li class="nav-item dropdown">
+                                    <button data-bs-toggle="dropdown" class="btn btn-dark me-4 dropdown-toggle">
+                                        <i class="bi bi-globe"></i> Language
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-item"><a href="#" class="dropdown-text SignInButton">English</a></li>
+                                        <li class="dropdown-item"><a href="#" class="dropdown-text SignInButton">हिन्दी</a></li>
+                                        <li class="dropdown-divider"></li>
+                                        <li class="dropdown-item">
+                                            <i class="bi bi-question-circle"></i> Help
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item ms-4"><a class="nav-link btn btn-dark" href="" target="frameBody"><i class="bi bi-cart4"></i>Cart</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!-- https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connect/#std-label-node-connect-to-mongodb -->
+             <div class="corusal">
+                <div id="topBanner" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                   
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <a href="electRonic.htm"> <img src="https://media.licdn.com/dms/image/C4E12AQGlzsYoKqxHkA/article-cover_image-shrink_600_2000/0/1634130038864?e=2147483647&v=beta&t=cmCQHpCHmQQfxEya-gVJGNUQe7E6ruQ3xxs-841Jd6c" class="w-100 d-block"  height="200px"> </a>
+                        
+                    </div>
+                   
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <a href="footWear.htm"> <img src="https://layout.naptol.com/usr/local/csp/staticContent/naaptolAds/Mens-Footwear-Sports-Shoes-01.jpg" class="w-100 d-block" height="200px"></a>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <a href="dreSS.htm"><img src="https://www.merchantcapital.co.za/hubfs/Electronic%20Online%20Header-01.jpg" class="w-100 d-block"  height="200px"></a>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <a href="dreSS.htm"><img src="https://assets.mspimages.in/wp-content/uploads/2022/03/Upcoming-Phones-Launching-in-March.png" class="w-100 d-block"  height="200px"></a>
+                    </div> 
+                </div>
+                <button data-bs-slide="prev" data-bs-target="#topBanner" class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-slide="next" data-bs-target="#topBanner" class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" data-bs-slide-to="0" data-bs-target="#topBanner"></button>
+                    <button data-bs-slide-to="1" data-bs-target="#topBanner"></button>
+                    <button data-bs-slide-to="2" data-bs-target="#topBanner"></button>
+                    <button data-bs-slide-to="3" data-bs-target="#topBanner"></button>
+                </div>
+               
+             </div>
+                </div>
+            <div class="detailsContainer_main"></div>
+        </main>
+        <footer> <div class="FooterBack">
+            <div>
+               <h2 class="bi bi-cart-plus-fill bi bg-danger"> BUY Anything With Low Price</h2>
+               </div>
+               <div>
+                   <input type="email" size="30" placeholder="Enter Email*" style="border-radius: 8px;">
+                    <button style="border-radius: 7px;">Subscribe</button>
+               </div>
+           </div>
+         <div class="bottomSubtitle">
+          
+         <div class="col">
+         <img src="https://www.kotak.com/content/dam/Kotak/product_card_images/how-credit-cards-enhance-your-shopping-experience.jpg" width="150" height="100" style="border-radius: 6px;">
+         <div>
+                  <nav class="SocialMedia">
+                     <a class="bgSocialMedia mt-2"><i class="bi bi-whatsapp "></i></a>
+                     <a class="bgSocialMedia mt-3"> <i class="bi bi-youtube"></i></a>
+                     <a class="bgSocialMedia mt-4"><i class="bi bi-twitter"></i></a>
+                     <a class="bgSocialMedia mt-1"> <i class="bi bi-instagram"></i></a>  
+                     <a class="bgSocialMedia mt-1"> <i class="bi bi-facebook"></i></a>                     
+                  </nav>
+             </div>
+              </div>
+             <div class="col">
+                  <div class="title" style="background-color: rgb(54, 161, 22); width: fit-content; border-radius: 4px;">SUPPORT</div>
+                     <div><a href="">Contact us</a></div>
+                     <div><a href="">FAQs</a></div>
+                     <div><a href="">Size Guide</a></div>
+                     <div><a href="">Shipping&Returns</a></div>
+                  </div>
+             <div class="col">
+                 <div class="title" style="background-color: rgb(64, 200, 15); width: fit-content; border-radius: 4px;">SHOP</div>
+                     <div><a href="">Electronic</a></div>
+                     <div><a href="">Dress</a></div>
+                     <div><a href="">Footwear</a></div>
+                     <div><a href="">Discounts</a></div>
+             </div>
+             <div class="col">
+                     <div class="title" style="background-color: rgb(95, 190, 17); width: fit-content; border-radius: 4px;">COMPANY</div>
+                     <div><a href="">Our Story</a></div>
+                     <div><a href="">Careers</a></div>        
+                     <div><a href="">Terms&Conditions</a></div>
+                     <div><a href="">Privecy& Cookie Policy</a></div>
+             </div>
+             <div class="col">
+                     <div class="title" style="background-color: rgb(67, 179, 30); width: fit-content; border-radius: 4px;">CONTACT US</div>
+                     <div><a href="">1-202-555-0105</a></div>
+                     <div><a href="">1-202-555-0106</a></div>        
+                     <div><a href="">helper@OnlineShopper.com</a></div>
+             </div>
+        </div>
+        <div class="line">
+
+        </div>
+       <div class="bottom">
+         <div>
+            <a href=""> &copy;2023 All rights reserved by OnlineShoping.</a>
+            </div>
+            <div>
+               
+                <a href=""><img class="ruPay" src="https://www.mycollection.in/public/images/rupay_card.png" width="50" height="30"></a>
+                <a href=""><img src="https://i.ytimg.com/vi/zEG4j_Bf01Y/maxresdefault.jpg" width="50" height="30"></a>
+                <a href=""><img src="https://th.bing.com/th/id/OIP.7M_IxB3MvTvnbRB82JC1LAHaEK?pid=ImgDet&rs=1" width="50" height="30"></a>
+                <a href=""><img src="https://akm-img-a-in.tosshub.com/sites/btmt/images/stories/phonepe_660_050221042103.jpg" width="50" height="30"></a>
+                <a href=""><img src="https://techzhubz.com/wp-content/uploads/2021/07/google-300x170.png" width="50" height="30"></a>
+                <a href=""><img src="https://www.shutterstock.com/image-illustration/debit-card-isolated-on-white-260nw-542784994.jpg" width="50" height="30"></a>
+                
+            </div>
+       </div>
+       </footer>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+[
+    {
+        "pid" :  "p_a12345",
+        "pname" :  "Laptop",
+        "actualPrice" :  2000,
+        "discountPercent" :  5,
+        "rating" :  4.5,
+        "imageUrl" :  "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/H/6H9E0PA-1_T1659921531.png",
+        "description" :  "This product is a fine laptop, used for business or education purpose. It has high configuration Sutable for all"
+    },
+    {
+        "pid" :  "p_176",
+        "pname" :  "Laptop",
+        "actualPrice" :  2000,
+        "discountPercent" :  5,
+        "rating" :  3.5,
+        "imageUrl" :  "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/H/6H9E0PA-1_T1659921531.png",
+        "description" :  "This product is a fine laptop, used for business or education purpose. It has high configuration Sutable for all"
+    },
+    {
+        "pid" :  "p_134",
+        "pname" :  "Laptop",
+        "actualPrice" :  2000,
+        "discountPercent" :  5,
+        "rating" :  4,
+        "imageUrl" :  "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/H/6H9E0PA-1_T1659921531.png",
+        "description" :  "This product is a fine laptop, used for business or education purpose. It has high configuration Sutable for all"
+    },
+    {
+        "pid" :  "p_243",
+        "pname" :  "Laptop",
+        "actualPrice" :  2000,
+        "discountPercent" :  5,
+        "rating" :  2.5,
+        "imageUrl" :  "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/H/6H9E0PA-1_T1659921531.png",
+        "description" :  "This product is a fine laptop, used for business or education purpose. It has high configuration Sutable for all"
+    },
+    {
+        "pid" :  "p_234",
+        "pname" :  "Laptop",
+        "actualPrice" :  2000,
+        "discountPercent" :  5,
+        "rating" :  1,
+        "imageUrl" :  "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/H/6H9E0PA-1_T1659921531.png",
+        "description" :  "This product is a fine laptop, used for business or education purpose. It has high configuration Sutable for all"
+    },
+    {
+        "pid" :  "p_123",
+        "pname" :  "Laptop",
+        "actualPrice" :  2000,
+        "discountPercent" :  5,
+        "rating" :  5,
+        "imageUrl" :  "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/H/6H9E0PA-1_T1659921531.png",
+        "description" :  "This product is a fine laptop, used for business or education purpose. It has high configuration Sutable for all"
+    }
+]

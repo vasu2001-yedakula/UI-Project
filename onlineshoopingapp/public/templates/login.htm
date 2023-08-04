@@ -1,0 +1,46 @@
+<div class="mainContainer">
+    <div class="blockContainer">
+        <ul class="listContainer">
+            <li>
+                <b><i class="bi bi-person-circle"></i>&nbsp;User Login </b>
+            </li>
+            
+            <li>
+                <input type="text" class="form-control" placeholder="Enter User Id" id="userId">
+            </li>
+
+            <li>
+                <input type="password" class="form-control" placeholder="Enter Account Password" id="acntPwd">
+            </li>
+
+            
+            <li class="captchacontainer">
+                <div class="captcha">    
+                    <input id="userCaptcha" type="text" class="captchaenter" title="Enter Captcha shown right" placeholder="Enter Captcha">
+                    <div class="captchabox">
+                        <img class="captcharefresh" src="../images/refresh_icon_1.png" title="Click Refresh" onclick="generateCaptcha()">
+                        <em><div id="generator"> </div></em>
+                    </div>
+                </div>
+            </li>
+            <li class="captchaError">Invalid Captcha</li>
+
+            <li>
+                <div class="form-check form-switch">
+                    <input checked class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Remember My Id and Password</label>
+                </div>
+            </li>
+            <li class="errBlocklogin">
+
+            </li>
+            <li class="loginlinks">
+                <span onclick="loadSelectedPage('fgpwd')">Forgot Password</span>
+                <span onclick="loadSelectedPage('signup')">New user Signup</span>
+            </li>
+            <li>
+                <input type="button" value="Login" class="btn btn-primary" onclick="readUserInfo()">
+            </li>
+        </ul>
+    </div>
+</div>

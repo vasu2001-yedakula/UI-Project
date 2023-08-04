@@ -1,0 +1,22 @@
+.adminBlock {
+    border: 1px solid;
+    padding: 5px;
+    margin: 5px auto;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(87, 69, 69);
+    background-color: hsl(180, 100%, 50%);
+
+    
+}
+h3 {
+    text-align: center;
+    background-color: hwb(109 0% 0%);
+}
+.adminBlock li {
+    list-style: none;
+    border: 1px solid;
+    margin: 5px;
+    padding: 10px;
+    background-color: hwb(28 47% 8%);
+}

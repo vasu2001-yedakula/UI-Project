@@ -1,0 +1,63 @@
+footer{
+ background-color: black;
+ color: aliceblue;
+ height: 400px;
+ padding-bottom: 20px;
+
+
+ }
+ a{  text-decoration: none;}
+ 
+ .FooterBack{
+     text-align: center;
+ padding-top: 20px;
+ font-family: arial;
+ }
+ .bottomSubtitle{
+     display: flex;
+    
+     position: relative;
+    left: 30px;
+    right: 30px;
+     padding-top: 30px;
+ }
+ .col{
+     font-size: 15px;
+     font-family: arial;
+     color: gray;
+     }
+ .title{
+     margin-left: 5px;
+     color: white;
+     font-weight: bold;
+ }
+ .col div{
+     margin-bottom: 8px;
+ }
+ .line{
+     margin-top: 25px;
+     border-bottom: 0.2px solid darkgray;
+ }
+ .bottom{
+     margin-top: 30px;
+     margin-right: 50px;
+     margin-left: 100px;
+     display: grid;
+     grid-template-columns: 8fr 4fr;
+ }
+ .SocialMedia  i{
+     
+     background-color: black ;
+     font-size: 20px;
+     padding: 2px;
+     color: aliceblue;
+ }
+ .bgSocialMedia{
+     background-color: black;
+ }
+ a{
+     background-color: black;
+     color: rgb(151, 149, 149);
+     padding: -2px;
+ }
+ .ruPay{background-color: white;}
